@@ -1,0 +1,161 @@
+[
+  {
+    "po_number": "PO-2026-014",
+    "vendor_name": "Northwind Office Supply",
+    "issue_date": "2026-09-28",
+    "currency": "USD",
+    "total_amount": "1840.00",
+    "line_items": [
+      {
+        "sku": "NW-1001",
+        "description": "A4 Copy Paper 80gsm",
+        "quantity": "40",
+        "unit_price": "6.50",
+        "line_total": "260.00"
+      },
+      {
+        "sku": "NW-2044",
+        "description": "Ergonomic Task Chair",
+        "quantity": "4",
+        "unit_price": "320.00",
+        "line_total": "1280.00"
+      },
+      {
+        "sku": "NW-3300",
+        "description": "Laser Printer Toner (Black)",
+        "quantity": "10",
+        "unit_price": "30.00",
+        "line_total": "300.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-021",
+    "vendor_name": "Meridian Paper Co",
+    "issue_date": "2026-09-30",
+    "currency": "USD",
+    "total_amount": "1240.00",
+    "line_items": [
+      {
+        "sku": "MP-880",
+        "description": "Recycled Letter Paper",
+        "quantity": "100",
+        "unit_price": "7.00",
+        "line_total": "700.00"
+      },
+      {
+        "sku": "MP-915",
+        "description": "Archival Document Boxes",
+        "quantity": "30",
+        "unit_price": "18.00",
+        "line_total": "540.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-033",
+    "vendor_name": "Aster Logistics GmbH",
+    "issue_date": "2026-10-05",
+    "currency": "EUR",
+    "total_amount": "960.00",
+    "line_items": [
+      {
+        "sku": "AL-10",
+        "description": "Pallet Freight (Domestic)",
+        "quantity": "6",
+        "unit_price": "120.00",
+        "line_total": "720.00"
+      },
+      {
+        "sku": "AL-22",
+        "description": "Tail-lift Handling",
+        "quantity": "8",
+        "unit_price": "30.00",
+        "line_total": "240.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-047",
+    "vendor_name": "Helio Industrial Supply",
+    "issue_date": "2026-10-02",
+    "currency": "USD",
+    "total_amount": "2110.00",
+    "line_items": [
+      {
+        "sku": "HI-510",
+        "description": "Safety Gloves (Large)",
+        "quantity": "20",
+        "unit_price": "24.50",
+        "line_total": "490.00"
+      },
+      {
+        "sku": "HI-620",
+        "description": "Nitrile Gloves (Medium)",
+        "quantity": "25",
+        "unit_price": "28.00",
+        "line_total": "700.00"
+      },
+      {
+        "sku": "HI-740",
+        "description": "Hearing Protection",
+        "quantity": "30",
+        "unit_price": "18.00",
+        "line_total": "540.00"
+      },
+      {
+        "sku": "HI-880",
+        "description": "First Aid Kits",
+        "quantity": "4",
+        "unit_price": "95.00",
+        "line_total": "380.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-009",
+    "vendor_name": "Northwind Office Supply",
+    "issue_date": "2026-08-11",
+    "currency": "USD",
+    "total_amount": "125.00",
+    "line_items": [
+      {
+        "sku": "NW-1001",
+        "description": "A4 Copy Paper 80gsm",
+        "quantity": "10",
+        "unit_price": "6.50",
+        "line_total": "65.00"
+      },
+      {
+        "sku": "NW-4402",
+        "description": "Whiteboard Markers (Pack of 4)",
+        "quantity": "4",
+        "unit_price": "15.00",
+        "line_total": "60.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-022",
+    "vendor_name": "Meridian Paper Co",
+    "issue_date": "2026-09-16",
+    "currency": "USD",
+    "total_amount": "496.00",
+    "line_items": [
+      {
+        "sku": "MP-880",
+        "description": "Recycled Letter Paper",
+        "quantity": "40",
+        "unit_price": "7.00",
+        "line_total": "280.00"
+      },
+      {
+        "sku": "MP-915",
+        "description": "Archival Document Boxes",
+        "quantity": "12",
+        "unit_price": "18.00",
+        "line_total": "216.00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-ink-950 text-slate-200 antialiased;
+    background-image:
+      radial-gradient(1100px 620px at 12% -12%, rgba(45, 212, 191, 0.1), transparent 60%),
+      radial-gradient(900px 560px at 100% 0%, rgba(200, 245, 106, 0.06), transparent 55%),
+      linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    background-size: auto, auto, 48px 48px, 48px 48px;
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-signal/25 text-white;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.14) transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+  }
+}
+
+@layer components {
+  .panel-grid {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 100% 32px;
+  }
+
+  .hairline {
+    @apply border-white/[0.07];
+  }
+
+  .focus-ring {
+    @apply outline-none ring-offset-2 ring-offset-ink-950 focus-visible:ring-2 focus-visible:ring-signal/60;
+  }
+
+  .btn-primary {
+    @apply focus-ring inline-flex items-center justify-center gap-2 rounded-xl bg-signal px-4 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-[#d6ff83] disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-secondary {
+    @apply focus-ring inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-slate-200 transition hover:border-white/20 hover:bg-white/[0.07] disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-ghost {
+    @apply focus-ring inline-flex items-center justify-center gap-2 rounded-lg px-2.5 py-1.5 text-xs font-medium text-slate-400 transition hover:bg-white/[0.05] hover:text-slate-200;
+  }
+
+  .input {
+    @apply focus-ring w-full rounded-xl border border-white/10 bg-ink-900/80 px-3.5 py-2.5 text-sm text-slate-100 placeholder:text-slate-600;
+  }
+
+  .data-row {
+    @apply grid grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)_minmax(0,1fr)_88px] items-center gap-3 border-b border-white/[0.055] px-4 py-3 text-xs last:border-0;
+  }
+}

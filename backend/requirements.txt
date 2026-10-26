@@ -1,0 +1,12 @@
+# Runtime dependencies for the DocuPilot AI backend.
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9
+python-dotenv>=1.0,<2
+httpx>=0.27,<1
+pydantic>=2.7,<3
+PyMuPDF>=1.24,<2
+Pillow>=10.3,<12
+
+# Development / tests
+pytest>=8.2,<9
